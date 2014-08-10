@@ -5,8 +5,7 @@ Dockerfile for php5-fpm version 5.4 built on Debian Wheezy
 
 Instructions:
 
-To start the containter in two modes:
-------------------------------------
+To start the containter you can choose between one of two modes:
 
 1. Listen to IP
 	
