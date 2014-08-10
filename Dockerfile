@@ -9,5 +9,4 @@ RUN apt-get update && apt-get install -y \
 VOLUME /etc/php5
 
 EXPOSE 9000
-CMD ["/etc/init.d/php5-fpm start"]
 CMD ["/usr/sbin/php5-fpm"]
