@@ -13,4 +13,4 @@ To start the containter you can choose between one of two modes:
 
 2. Listen to socket (use -v /var/run/fpm/ to define a VOLUME that can be used to access fpm.socket file. Use docker --inspct container_name so that you can find volume location)
    
-   - docker run -t -i -d -v /var/run/fpm/ --name=give_it_a_name -e FPM=/var/run/fpm/fpm.socket andrei821/docker-php5-fpm
+   - docker run -t -i -d -v /var/run/fpm/ --name=give_it_a_name -e LISTEN=/var/run/fpm/fpm.socket andrei821/docker-php5-fpm
