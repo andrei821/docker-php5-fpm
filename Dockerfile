@@ -22,7 +22,6 @@ RUN apt-get update && apt-get install -y \
 			php5-ps \
 			php5-rrd \
 			php5-sasl \
-			php5-embed \
 			php5-cli \
 			php5-common \
 			php5-curl \
@@ -36,7 +35,6 @@ RUN apt-get update && apt-get install -y \
 			php5-interbase \
 			php5-intl \
 			php5-mcrypt \
-			php5-mysql \
 			php5-mysqlnd \
 			php5-odbc \
 			php5-pgsql \
