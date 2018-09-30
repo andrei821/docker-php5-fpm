@@ -18,4 +18,4 @@ To start the containter you can choose between one of two modes:
 
 Updates 19.Dec.2014
  - Added dotdeb repository
- - Installed multiple php5-modules (including php5-mongo)
+ - Installed multiple php5-modules (including php5-mongo) 
